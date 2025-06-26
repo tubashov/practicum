@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="748a6cf0-2190-4cff-b021-d4100f3fa911" name="Changes" comment="" />
+    <list default="true" id="748a6cf0-2190-4cff-b021-d4100f3fa911" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practicum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practicum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practicum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_03/m1-t12-debug/m1-t12-debug.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_03/zoopark/Zoopark.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_05/discount_calculator/discount_calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_05/mortgage_request/mortgage_request.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_05/price_calculator/price_calculator.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_05/timetable/timetable.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_06/Practicum/Practicum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_06/java-kanban/java-kanban" beforeDir="false" afterPath="$PROJECT_DIR$/../sprint_06/java-kanban/java-kanban" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_07/0701/clean-input/clean-input.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_07/0701/grades/grades.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_07/0701/palindrome/palindrome.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_09/_090205-social-net/_090205-social-net.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint_09/http-server/http-server.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
