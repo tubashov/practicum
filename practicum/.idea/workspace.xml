@@ -5,30 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="748a6cf0-2190-4cff-b021-d4100f3fa911" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/practicum.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main1/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main1/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main1/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main1/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main1/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main1/Main1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main1/src/Practicum.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/src/ItemPopularityComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Методы.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Полиморфизм.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Примитивы.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Программа Java dev.docx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ЧАВо по работе платформы.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practicum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practicum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../sprint_06/java-kanban/java-kanban" beforeDir="false" afterPath="$PROJECT_DIR$/../sprint_06/java-kanban/java-kanban" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,9 +17,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2yx1BXzys3srr6uJ39dmvIot759" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -54,6 +32,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/YandexDisk/03_Work/github/java/practicum/practicum",
     "onboarding.tips.debug.path": "D:/YandexDisk/03_Work/github/java/practicum/practicum/src/Main.java"
   }
 }]]></component>
