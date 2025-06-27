@@ -72,6 +72,12 @@ class SubtitleItem {
     }
 }
 
+class SubtitleListTypeToken {
+    public Type getType() {
+        return new TypeToken<List<SubtitleItem>>() {}.getType();
+    }
+}
+
 // Кастомный адаптер для сериализации/десериализации LocalTime
 class LocalTimeTypeAdapter extends TypeAdapter<LocalTime> {
     // Формат времени: чч:мм:сс.миллисекунды
@@ -79,15 +85,10 @@ class LocalTimeTypeAdapter extends TypeAdapter<LocalTime> {
 
     // Преобразование времени в строку при сериализации
     @Override
-    public void write(JsonWriter out, LocalTime value) throws IOException {
-        if (value == null) {
-            out.nullValue();
-        } else {
-            out.value(value.format(formatter));
-        }
+    public void write(final JsonWriter jsonWriter, final LocalTime localTime) throws IOException {
+        jsonWriter.value(localTime.format(formatter));
     }
-
-    // Преобразование строки в LocalTime при десериализации
+    // Преобразуем локальное время в строку по формату "HH:mm:ss.SSS"
     @Override
     public LocalTime read(JsonReader in) throws IOException {
         String str = in.nextString();
@@ -129,6 +130,8 @@ public class Practicum {
         // Регистрируем адаптер для обработки времени LocalTime
         gsonBuilder.registerTypeAdapter(LocalTime.class, new LocalTimeTypeAdapter());
 
+        gsonBuilder.enableComplexMapKeySerialization();
+
         // Включаем pretty-print — отступы и переносы строк
         gsonBuilder.setPrettyPrinting();
 
@@ -141,7 +144,11 @@ public class Practicum {
         System.out.println(subtitlesJson);
 
         // Определяем тип результата: список элементов SubtitleItem
-        Type type = new TypeToken<List<SubtitleItem>>(){}.getType();
+        Type type = new SubtitleListTypeToken().getType();
+
+        LocalTime time = LocalTime.of(9, 5, 7, 123_000_000);
+        String result = time.format(DateTimeFormatter.ofPattern("HH:mm:ss.SSS"));
+        System.out.println(result);
 
         // Парсим строку JSON обратно в список объектов
         List<SubtitleItem> parsed = gson.fromJson(subtitlesJson, type);
