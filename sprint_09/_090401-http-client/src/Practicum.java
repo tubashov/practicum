@@ -8,7 +8,7 @@ class Practicum {
 
     public static void main(String[] args) throws IOException, InterruptedException {
         // укажите URL-адрес ресурса
-        URI uri = URI.create("https://ya.ru/white");
+        URI url = URI.create("https://ya.ru/white");
 
         // получаем экземпляр класса-строителя
         HttpRequest.Builder requestBuilder = HttpRequest.newBuilder();
@@ -16,7 +16,7 @@ class Practicum {
         // создайте объект, описывающий HTTP-запрос
         HttpRequest request = requestBuilder
                 .GET() // метод запроса
-                .uri(uri) // указываем адрес ресурса
+                .uri(url) // указываем адрес ресурса
                 .version(HttpClient.Version.HTTP_1_1) // указываем версию протокола HTTP
                 .header("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7") // указываем заголовок Accept
                 .build(); // заканчиваем настройку и создаём ("строим") HTTP-запрос
